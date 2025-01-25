@@ -9,11 +9,11 @@
       <Representation id="video/avc1" codecs="avc1.64001F" width="1280" height="720"
         scanType="progressive" frameRate="30" bandwidth="163480">
         <SegmentList timescale="1000" duration="30000">
-          <Initialization sourceURL="v_init.mp4" />
-          <SegmentURL media="v_seg-1.m4s" />
-          <SegmentURL media="v_seg-2.m4s" />
-          <SegmentURL media="v_seg-3.m4s" />
-          <SegmentURL media="v_seg-4.m4s" />
+          <Initialization sourceURL="http://dl.zahrastyle.ir/test/2-manual/v_init.mp4" />
+          <SegmentURL media="http://dl.zahrastyle.ir/test/2-manual/v_seg-1.m4s" />
+          <SegmentURL media="http://dl.zahrastyle.ir/test/2-manual/v_seg-2.m4s" />
+          <SegmentURL media="http://dl.zahrastyle.ir/test/2-manual/v_seg-3.m4s" />
+          <SegmentURL media="http://dl.zahrastyle.ir/test/2-manual/v_seg-4.m4s" />
         </SegmentList>
       </Representation>
     </AdaptationSet>
@@ -23,11 +23,11 @@
         audioSamplingRate="48000">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:mpegB:cicp:ChannelConfiguration" value="2" />
         <SegmentList timescale="1000" duration="30000">
-          <Initialization sourceURL="a_init.mp4" />
-          <SegmentURL media="a_seg-1.m4s" />
-          <SegmentURL media="a_seg-2.m4s" />
-          <SegmentURL media="a_seg-3.m4s" />
-          <SegmentURL media="a_seg-4.m4s" />
+          <Initialization sourceURL="http://dl.zahrastyle.ir/test/2-manual/a_init.mp4" />
+          <SegmentURL media="http://dl.zahrastyle.ir/test/2-manual/a_seg-1.m4s" />
+          <SegmentURL media="http://dl.zahrastyle.ir/test/2-manual/a_seg-2.m4s" />
+          <SegmentURL media="http://dl.zahrastyle.ir/test/2-manual/a_seg-3.m4s" />
+          <SegmentURL media="http://dl.zahrastyle.ir/test/2-manual/a_seg-4.m4s" />
         </SegmentList>
       </Representation>
     </AdaptationSet>
