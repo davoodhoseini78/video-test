@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011"
+  minBufferTime="PT30.00S" mediaPresentationDuration="PT1M54.233S" type="static">
+  <!-- Created with Bento4 mp4-dash.py, VERSION=2.0.0-641 -->
+  <Period>
+    <!-- Video -->
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1280"
+      maxHeight="720">
+      <Representation codecs="avc1.64001F" width="1280" height="720"
+        scanType="progressive" frameRate="30" bandwidth="163480">
+        <SegmentList timescale="1000" duration="30000">
+          <Initialization sourceURL="v_init.mp4" />
+          <SegmentURL media="https://dl.zahrastyle.ir/test/2-manual/v_seg-1.m4s" />
+          <SegmentURL media="https://dl.zahrastyle.ir/test/2-manual/v_seg-2.m4s" />
+          <SegmentURL media="https://dl.zahrastyle.ir/test/2-manual/v_seg-3.m4s" />
+          <SegmentURL media="https://dl.zahrastyle.ir/test/2-manual/v_seg-4.m4s" />
+        </SegmentList>
+      </Representation>
+    </AdaptationSet>
+    <!-- Audio -->
+    <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
+      <Representation codecs="mp4a.40.2" bandwidth="97647"
+        audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:mpegB:cicp:ChannelConfiguration" value="2" />
+        <SegmentList timescale="1000" duration="30000">
+          <Initialization sourceURL="a_init.mp4" />
+          <SegmentURL media="https://dl.zahrastyle.ir/test/2-manual/a_seg-1.m4s" />
+          <SegmentURL media="https://dl.zahrastyle.ir/test/2-manual/a_seg-2.m4s" />
+          <SegmentURL media="https://dl.zahrastyle.ir/test/2-manual/a_seg-3.m4s" />
+          <SegmentURL media="https://dl.zahrastyle.ir/test/2-manual/a_seg-4.m4s" />
+        </SegmentList>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
